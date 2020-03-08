@@ -14,7 +14,7 @@
 
 .cadastro-list article p {
     font-size: 16px;
-    color: #999;
+    color: black;
     margin-top: 5px;
     line-height: 24px;
 }
@@ -68,4 +68,40 @@
 
 .cadastro-list .actions button[disabled]:hover {
     opacity: 0.5;
+}
+
+.cadastro-list button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastro-list button:hover {
+    opacity: 0.7;
+}
+
+.cadastro-list .actions a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background: nome;
+    margin-top: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: nome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.cadastro-list .actions a:hover {
+    background: blue;
+    color: white;
 }

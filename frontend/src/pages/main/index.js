@@ -14,9 +14,9 @@ export default class Main extends React.Component {
         return (
             <div className="entradas">
                 <article>
-                    <p>Consultar empresas cadastradas<Link to={"/cadastros"}>Acessar</Link></p>
-                    <p>Cadastrar nova empresa<Link to={"/cadastrar"}>Acessar</Link></p>
-                    <p>Lista<Link to={"/breweries"}>Acessar</Link></p>
+                    <p>Consultar Empresas Cadastradas<Link to={"/cadastros"}>Acessar</Link></p>
+                    <p>Cadastrar Nova Empresa<Link to={"/cadastrar"}>Acessar</Link></p>
+                    <p>Lista de Breweries<Link to={"/breweries"}>Acessar</Link></p>
                 </article>
 
             </div>          

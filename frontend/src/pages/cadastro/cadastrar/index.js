@@ -49,13 +49,13 @@ export default class Formulario extends React.Component {
   return (
     <div className="cadastro-list">
       <article>
-        <p>CNPJ: <input type="text" ref="cnpj" /></p>
+        <p>CNPJ: <input placeholder="99.999.999/9999-99" type="text" ref="cnpj" /></p>
         <p>Razão Social: <input type="text" ref="razaoSocial" /></p>
         <p>Nome Responsável: <input type="text" ref="nomeResponsavel" /></p>
-        <p>CPF Responsável: <input type="text" ref="cpf" /></p>
+        <p>CPF Responsável: <input placeholder="999.999.999-99" type="text" ref="cpf" /></p>
         <p>Endereço: <input type="text" ref="endereco" /></p>
         <p>Bairro: <input type="text" ref="bairro" /></p>
-        <p>CEP: <input type="text" ref="cep" /></p>
+        <p>CEP: <input placeholder="99.999-999" type="text" ref="cep" /></p>
         <p>Cidade: <input type="text" ref="cidade" /></p>
         <p>Estado: <input type="text" ref="estado" /></p>
         <p>Complemento: <input type="text" ref="complemento" /></p>

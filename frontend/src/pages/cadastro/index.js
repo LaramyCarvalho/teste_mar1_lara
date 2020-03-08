@@ -70,16 +70,16 @@ export default class Cadastro extends React.Component {
             <div className="cadastro-list">
                 {cadastros.map(cadastro => (
                     <article key={cadastro._id}>
-                        <strong>{cadastro.empresa.cnpj}</strong>
-                        <p>{cadastro.empresa.razaoSocial}</p>
-                        <p>{cadastro.empresa.nomeResponsavel}</p>
-                        <p>{cadastro.empresa.cpf}</p>
-                        <p>{cadastro.enderecoEmpresa}</p>
-                        <p>{cadastro.empresa.bairro}</p>
-                        <p>{cadastro.empresa.cep}</p>
-                        <p>{cadastro.empresa.cidade}</p>
-                        <p>{cadastro.empresa.estado}</p>
-                        <p>{cadastro.empresa.complemento}</p>
+                        <p>Cnpj: {cadastro.empresa.cnpj}</p>
+                        <p>Razão Social: {cadastro.empresa.razaoSocial}</p>
+                        <p>Nome do responsável: {cadastro.empresa.nomeResponsavel}</p>
+                        <p>Cpf: {cadastro.empresa.cpf}</p>
+                        <p>Endereço da empresa: {cadastro.enderecoEmpresa}</p>
+                        <p>Bairro: {cadastro.empresa.bairro}</p>
+                        <p>Cep: {cadastro.empresa.cep}</p>
+                        <p>Cidade: {cadastro.empresa.cidade}</p>
+                        <p>Estado: {cadastro.empresa.estado}</p>
+                        <p>complemento: {cadastro.empresa.complemento}</p>
                         <p>{cadastro.empresa.createdAt}</p>                
                         <button onClick={this.delete.bind(this, cadastro)}>Excluir</button>
                         <Link to={`/atualizar/${cadastro._id}`}>Atualizar</Link>
