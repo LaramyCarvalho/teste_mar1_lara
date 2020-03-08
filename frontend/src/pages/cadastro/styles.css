@@ -1,0 +1,71 @@
+.cadastro-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.cadastro-list article {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cadastro-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.cadastro-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background: nome;
+    margin-top: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: nome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.cadastro-list article a:hover {
+    background: blue;
+    color: white;
+}
+
+.cadastro-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cadastro-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastro-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.cadastro-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.cadastro-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}

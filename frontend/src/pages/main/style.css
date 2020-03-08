@@ -1,0 +1,72 @@
+.entradas {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.entradas article {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.entradas article p {
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+    line-height: 24px;
+    
+}
+
+.entradas article a {
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background: nome;
+    margin-top: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: nome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.entradas article a:hover {
+    background: blue;
+    color: white;
+}
+
+.entradas .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.entradas .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.entradas .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.entradas .actions button:hover {
+    opacity: 0.7;
+}
+
+.entradas .actions button[disabled]:hover {
+    opacity: 0.5;
+}
